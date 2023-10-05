@@ -1,0 +1,128 @@
+.main form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .3rem;
+}
+
+label {
+    grid-column: 1/3;
+}
+
+.label__border{
+    border-bottom: .05rem solid var(--main-gray);
+}
+
+.label__border:nth-child(1){
+padding-top: .2rem;
+}
+.condition__buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .3rem;
+}
+
+.condition__buttons button {
+    font-size: 1.2rem;
+    background-color: var(--btn-color);
+    color: white;
+    padding: .3rem;
+    
+}
+
+.pass{
+    background-color: var(--btn-color);
+    color: white;
+    padding: .3rem; 
+}
+
+
+select{
+    background-color: var(--main-gray); 
+    color: white;
+    font-size: 1.3rem;
+}
+
+.tariff__warning{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    background-color: rgb(253, 255, 143);
+    grid-column: 1/3;
+}
+.tariff__warning p{
+    font-size: .7rem;
+    padding: .2rem 1rem;
+}
+
+.tariff__warning span{
+    font-size: 1.2rem;
+    padding: .2rem 1rem;
+}
+.tariff__block, .except {
+    display: grid;
+    row-gap: .5rem;
+    grid-column: 1/3;
+   
+}
+
+.tariff__block label, .label__border {
+    display: grid;
+    grid-template-columns:80% 20%;     
+}
+
+.tariff__block span{
+    font-weight: bold;
+}
+
+.tarrif__info{
+    
+}
+
+
+.btn__sub, .offer, .fake__animal{
+    grid-column: 1/3;
+}
+.btn__sub, .fake__animal{
+    font-size: 1.2rem;
+    background-color: var(--btn-color);
+    color: white;
+    padding: .3rem;
+    text-align: center;
+}
+
+.fake__animal{
+   
+}
+
+.offer{
+    text-align: center;
+    font-size: .8rem;
+}
+
+.burger__menu{
+    position: absolute;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: var(--main-color);
+    z-index: 101;
+    text-align: center;
+    padding: 2rem 0;
+    transition: .3s;
+    z-index: 2000;
+}
+.burger__menu_active{
+    left: 0;
+}
+
+.burger__menu a{
+    font-size: 2rem;
+    line-height: 3rem;
+    color: white;
+}
+.animal{
+  
+    
+}
+
+
+

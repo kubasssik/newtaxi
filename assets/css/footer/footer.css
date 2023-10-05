@@ -1,0 +1,56 @@
+
+footer{
+    background-color: var(--main-color);
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);   
+}
+
+.footer span{
+    display: inline-block;
+    width: 100%;
+    font-size: .8rem;
+    text-align: center;
+    
+}
+
+.img__line{
+    position: relative;
+   width: 70%;
+   left: 50%;
+   transform: translate(-50%);
+}
+
+
+
+.footer__company{
+    font-size: .6rem;
+    text-align: end;
+    padding: 0 .5rem ;
+}
+.cookie{
+    position: fixed;
+    top: 70%;/*0*/
+    left: 50%;
+    transform: translateX(-50%) ;
+    z-index: 2;
+    width: 80%;
+    background-color: white;
+    padding: 1rem;
+    border: .05rem solid var(--main-gray);
+	border-radius:.1rem;
+    transition: 1s;
+    font-size: .8rem;
+}
+
+.cookie button{
+    font-size: 1.2rem;
+    background-color: var(--btn-color);
+    color: white;
+    padding: .3rem;
+    margin-top: .3rem;
+}
+.btn__active:active{
+    opacity: .5;
+}

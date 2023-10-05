@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Трансфер "КрымОк!"</title>
+    <link rel="stylesheet" href="assets/css/header/header.css">
+    <link rel="stylesheet" href="assets/css/main/main.css">
+    <link rel="stylesheet" href="assets/css/footer/footer.css">
+    <link rel="stylesheet" href="assets/css/style/style.css">
+    <link rel="stylesheet" href="assets/css/style/media.css">
+    <link rel="stylesheet" href="assets/css/calendar/calendar.css">
+    <link rel="stylesheet" href="assets/css/main/multi.css">
+</head>
+
+<body>
+    <div class="help__window">
+        <span>&times;</span>
+        <p></p>
+    </div>
+    <div class="wrapper">
+        <header>
+            <div class="header">
+                <div class="logo">
+                    <h1>КрымОк</h1>
+                    <p>Междугородний трансфер</p>
+                </div>
+                <div class="burger">
+                    <span class="b0 b"></span><span class="b1 b"></span><span class="b2 b"></span>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="burger__menu">
+                <ul>
+                    <li><a href="">"КрымОк"</a></li>
+                    <li><a href="">Тарифы</a></li>
+                    <li><a href="">Акции</a></li>
+                    <li><a href="">Контакты</a></li>
+                    <li><a href="">Отмена заказа</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <form action="#" method="post">
+                    <label>
+                        <span class="active__placeholder d_n">Номер телефона</span>
+                        <input type="text" placeholder="Номер телефона">
+                        <span class="error"></span>
+                    </label>
+                    <label>
+                        <span class="active__placeholder d_n">Откуда</span>
+                        <input type="text" placeholder="Откуда">
+                        <span class="error"></span>
+                    </label>
+                    <label>
+                        <span class="active__placeholder d_n">Куда</span>
+                        <input type="text" placeholder="Куда">
+                        <span class="error"></span>
+                    </label>
+                    <label class="d_n">
+                        <span class="active__placeholder"></span>
+                        <input type="text" placeholder="">
+                        <span class="error"></span>
+                    </label>
+                    <label class="condition__buttons">
+                        <button type="button">&#128176; Наличные</button>
+                        <button type="button">&#128198; Дата</button>
+                        <div class="calendar__time d_n">
+                            <input type="time">
+                        </div>
+                        <div class="calendar d_n">
+                            <div class=" calendar__header">
+                                <div class="calendar__left calendar__set next__back">&#9664;</div>
+                                <div class="calendar__date calendar__set"></div>
+                                <div class="calendar__right calendar__set next__back">&#9654;</div>
+                            </div>
+                            <div class="calendar__main">
+                                <div class="calender__day">пн</div>
+                                <div class="calender__day">вт</div>
+                                <div class="calender__day">ср</div>
+                                <div class="calender__day">чт</div>
+                                <div class="calender__day">пт</div>
+                                <div class="calender__day">сб</div>
+                                <div class="calender__day">вс</div>
+                            </div>
+                            <div class="calendar__footer"></div>
+                        </div>
+                    </label>
+                    <div class="tariff__warning">
+                        <span>&#9888; </span>
+                        <p>Все автомобили с кондиционером, багаж бесплатно</p>
+                    </div>
+                    <div class="tariff__block">
+                        <label class="label__border">
+                            <span class="tarrif__info">Стандарт, до 3 мест</span>
+                            <input class="radio d_n" type="radio" name="tariff" id="s">
+                            <span class="fake__radio"></span>
+                        </label>
+                        <label class="label__border">
+                            <span class="tarrif__info">Комфорт, до 4 мест</span>
+                            <input class="radio d_n" type="radio" id="c" name="tariff" checked>
+                            <span class="fake__radio"></span>
+                        </label>
+                        <label class="label__border">
+                            <span class="tarrif__info">Микроавтобус, до 10 мест</span>
+                            <input class="radio d_n" type="radio" id="m" name="tariff">
+                            <span class="fake__radio"></span>
+                        </label>
+                        <label class="label__border">
+                            <span class="tarrif__info">Бизнес, до 4 мест</span>
+                            <input class="radio d_n" type="radio" id="b" name="tariff">
+                            <span class="fake__radio"></span>
+                        </label>
+                    </div>
+                    <div class="except">
+                        <label class="label__border">
+                            <span>Количество пассажиров</span>
+                            <button type="button" class="pass">Указать</button>
+                            <select class="d_n">
+                                <option value="">0</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                            </select>
+                        </label>
+                        <label class="label__border children">
+                            <span>Детское кресло</span>
+                            <button type="button" class="pass">Указать</button>
+                            <select class="d_n">
+                                <option value="">0</option>
+                                <option value="">1</option>
+                            </select>
+                        </label>
+                        <label class="label__border">
+                            <span>Чек (квитанция)</span>
+                            <input class="checkbox d_n" type="checkbox">
+                            <span class="fake__checkbox"></span>
+                        </label>
+                        <label class="label__border">
+                            <span>С животным +300 &#x20bd;</span>
+                            <input class="checkbox d_n" type="checkbox">
+                            <span class="fake__checkbox"></span>
+                        </label>
+                        <label class="label__border animal d_n">
+                            <input type="file" class="d_n">
+                            <span class="fake__animal">Фото животног &#127910;</span>
+                        </label>
+                        <label class="label__border">
+                            <span>Встреча с табличкой +100 &#x20bd</span>
+                            <input class="checkbox d_n" type="checkbox">
+                            <span class="fake__checkbox"></span>
+                        </label>
+                        <label class="d_n">
+                            <input type="text" placeholder="Фамилия">
+                        </label>
+                        <label class="label__border">
+                            <span>Промокод</span>
+                            <input class="checkbox d_n" type="checkbox">
+                            <span class="fake__checkbox"></span>
+                        </label>
+                        <label class="d_n">
+                            <input type="text" placeholder="Введите промокод">
+                        </label>
+                    </div>
+                    <div class="multi">
+                        <label>
+                            <ul></ul>
+                            <input type="text" placeholder="Добавить" maxlength="30">
+                            <button type="button">&#10133;</button>
+                            <p class="multi_p">30 символов</p>
+                        </label>
+                    </div>
+                    <button class="btn__sub btn__active" type="submit">Заключить договор - <span>1000 &#x20bd</span></button>
+                    <span class="offer">Нажимая "Заключить договор" вы соглашаетесь с созданием заказа в соответствии с
+                        <a href="#">офертой</a></span>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <div><a href="#"><img class="tel img__line" src="assets/img/png/telephone.png"
+                            alt="noImg"></a><span>Позвонить</span></div>
+                <div><a href="#"><img class="whatsapp img__line" src="assets/img/png/whatsapp.png"
+                            alt="noImg"></a><span>WhatsApp</span></div>
+                <div><a href="#"><img class="viber img__line" src="assets/img/png/viber.png"
+                            alt="noImg"></a><span>Viber</span></div>
+                <div><a href="#"><img class="telegram img__line" src="assets/img/png/telegram.png"
+                            alt="noImg"></a><span>Telegram</span></div>
+            </div>
+            <p class="footer__company">
+                Трансфер "КрымОк"&copy; 2020-2023
+            </p>
+        </footer>
+    </div>
+    <div class="cookie">
+        <p>Данный веб-сайт использует cookie-файлы в целях предоставления вам лучшего пользовательского опыта на нашем
+            сайте. Продолжая использовать данный сайт, вы соглашаетесь с использованием нами cookie-файлов. Для
+            получения дополнительной информации см. <a href="#">Политика конфиденциальности.</a></p>
+        <button class="btn__active" type="button">Принять</button>
+    </div>
+    <script src="assets/js/calendar.js" type="module"></script>
+    <script src="assets/js/index.js" type="module"></script>
+    <script src="assets/js/multi.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+.multi {
+    width: 100%;
+    grid-column: 1/3;
+}
+
+.multi label ul li{
+    display: inline-block;
+    border: .1rem solid var(--main-color);
+    margin-left: .3rem;
+    font-size: 1.2rem;
+    margin-bottom: .3rem;
+    padding: .3rem;
+    border-radius: .3rem;   
+}
+
+.span{
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+
+.multi button{
+    position: absolute;
+    left:80%;
+    background-color: white;
+    font-size: 1.2rem;
+}
+
+.multi_p{
+    color: var(--btn-color);
+    font-size: .8rem;
+    transition: .3s;    
+    opacity: 0;
+}
+
+.multi__p_active{
+    opacity: 1;
+}
